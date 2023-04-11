@@ -49,7 +49,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="FluentModbus" Version="5.0.2" />
+		<PackageReference Include="hidlibrary" Version="3.3.40" />
+		<PackageReference Include="Logary.CSharp" Version="5.0.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Polly" Version="7.2.3" />
+		<PackageReference Include="System.IO.Ports" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Model\Poco\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Navigator40.Core">
+	    <HintPath>..\..\Bin\Navigator40.Core.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 
 </Project>
